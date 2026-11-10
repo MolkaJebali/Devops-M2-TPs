@@ -1,0 +1,2 @@
+Ceci est le contenu de file1.txt pour le TP1 Git.
+Initialisation du projet et suivi de version avec Git.

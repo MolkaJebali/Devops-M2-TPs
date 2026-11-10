@@ -1,0 +1,2 @@
+Contenu specifique a la branche Branche1
+Deuxieme ligne ajoutee pour tester git diff.
