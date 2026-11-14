@@ -9,15 +9,19 @@
 
 ## 📂 Structure du Répertoire de Rendu
 
-Ce dépôt regroupe les réalisations et les comptes rendus détaillés des 3 Travaux Pratiques :
+Ce dépôt regroupe les réalisations et les comptes rendus détaillés des 3 Travaux Pratiques, disponibles en consultation directe Markdown (`.md`) et en téléchargement Word (`.docx`) :
 
 ```text
 TPs/
 ├── 📄 README.md                    <-- Présentation générale et index des livrables
 │
-├── 📑 Rendu_TP1_Git.md             <-- Compte rendu complet du TP1 (Dépôt local)
-├── 📑 Rendu_TP2_GitHub.md          <-- Compte rendu complet du TP2 (Dépôt distant & Sécurité)
-├── 📑 Rendu_TP3_Branche.md         <-- Compte rendu complet du TP3 (Gestion des branches)
+├── 📑 Rendu_TP1_Git.md             <-- Compte rendu en ligne TP1 (Dépôt local)
+├── 📑 Rendu_TP2_GitHub.md          <-- Compte rendu en ligne TP2 (Dépôt distant & Sécurité)
+├── 📑 Rendu_TP3_Branche.md         <-- Compte rendu en ligne TP3 (Gestion des branches)
+│
+├── 📘 Rendu TP1.docx               <-- Document Word TP1 (avec captures d'écran)
+├── 📘 Rendu TP2.docx               <-- Document Word TP2 (avec captures d'écran)
+├── 📘 Rendu TP3.docx               <-- Document Word TP3 (avec captures d'écran)
 │
 ├── 📂 TP1/                         <-- Répertoire du TP1
 │   ├── file1.txt, file2.txt, file3.txt, file4.txt
@@ -36,17 +40,20 @@ TPs/
 
 ## 📌 Sommaire des Travaux Pratiques
 
-### 1. [TP1 : Git — Création d’un dépôt local](Rendu_TP1_Git.md)
+### 1. TP1 : Git — Création d’un dépôt local
 * **Objectifs :** Configuration de l'environnement (`user.name`, `user.email`), initialisation de dépôts (`git init`), compréhension des 3 zones Git (Working Directory, Staging Area, Local Repository), gestion des commits et analyse de l'historique (`git log`).
-* **Livrable détaillé :** [Consulter le Rendu TP1](Rendu_TP1_Git.md)
+* 📄 **Lecture en ligne (Markdown) :** [Consulter Rendu_TP1_Git.md](./Rendu_TP1_Git.md)
+* 📥 **Version Word :** [Télécharger Rendu TP1.docx](./Rendu%20TP1.docx)
 
-### 2. [TP2 : GitHub — Dépôt distant, Sécurité et Bonnes Pratiques](Rendu_TP2_GitHub.md)
+### 2. TP2 : GitHub — Dépôt distant, Sécurité et Bonnes Pratiques
 * **Objectifs :** Synchronisation bidirectionnelle (`clone`, `push`, `pull`), rôle et importance critique du fichier `.gitignore`, modèles de sécurité modernes (dépréciation des mots de passe en 2021, utilisation des **Tokens d'Accès Personnels PAT** et des **paires de clés asymétriques SSH ed25519**).
-* **Livrable détaillé :** [Consulter le Rendu TP2](Rendu_TP2_GitHub.md)
+* 📄 **Lecture en ligne (Markdown) :** [Consulter Rendu_TP2_GitHub.md](./Rendu_TP2_GitHub.md)
+* 📥 **Version Word :** [Télécharger Rendu TP2.docx](./Rendu%20TP2.docx)
 
-### 3. [TP3 : Git — Gestion des Branches et Stratégies de Versioning](Rendu_TP3_Branche.md)
+### 3. TP3 : Git — Gestion des Branches et Stratégies de Versioning
 * **Objectifs :** Isolation du développement par branches (`git branch`, `git checkout` / `switch`), manipulation du pointeur `HEAD`, inspection fine des modifications avec `git diff`, résolution de bugs en équipe et procédures de rollback / restauration (`git checkout -- .`, `git reset`, `git stash`).
-* **Livrable détaillé :** [Consulter le Rendu TP3](Rendu_TP3_Branche.md)
+* 📄 **Lecture en ligne (Markdown) :** [Consulter Rendu_TP3_Branche.md](./Rendu_TP3_Branche.md)
+* 📥 **Version Word :** [Télécharger Rendu TP3.docx](./Rendu%20TP3.docx)
 
 ---
 
@@ -55,4 +62,3 @@ TPs/
 * **Outil de versioning :** Git 2.51.2
 * **Plateforme distante :** GitHub
 * **Terminal :** PowerShell / Git Bash
-
